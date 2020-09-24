@@ -21,3 +21,4 @@ ALTER TABLE [AdmInd].[BajaIndicador] ADD CONSTRAINT [FK_BajaIndicador_MasterIndi
 GO
 EXEC sp_addextendedproperty N'MS_Description', N'Esta funcionalidad permite mediante un proceso de solicitud y aprobación, proceder a dar de baja al indicador. ', 'SCHEMA', N'AdmInd', 'TABLE', N'BajaIndicador', NULL, NULL
 GO
+--comentarios
